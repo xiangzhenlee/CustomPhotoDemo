@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/layout_title"
+        layout="@layout/image_layout_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/layout_foot"
+        android:layout_below="@+id/layout_title" >
+
+        <GridView
+            android:id="@+id/grid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:gravity="center"
+            android:horizontalSpacing="3dp"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="3"
+            android:overScrollMode="never"
+            android:fadingEdge="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="3dp" >
+        </GridView>
+
+        <View
+            android:id="@+id/view_mask"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#BB000000"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/layout_foot"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        layout="@layout/image_layout_foot" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/layout_foot"
+        android:background="#d4d4d4" />
+
+</RelativeLayout>

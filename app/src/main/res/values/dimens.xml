@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 多张图片 （微信）-->
+    <dimen name="image_head_height">48dp</dimen>
+    <dimen name="image_foot_height">47dp</dimen>
+    <dimen name="image_folder_height">90dp</dimen>
+    <dimen name="layout_folder_name_width">100dp</dimen>
+
+</resources>

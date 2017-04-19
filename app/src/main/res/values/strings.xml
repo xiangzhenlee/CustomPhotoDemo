@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CustomPhotoDemo</string>
+
+    <!-- 微信多图选择 -->
+
+    <string name="check">选择</string>
+    <string name="image">图片</string>
+    <string name="send">发送</string>
+    <string name="complete">发送</string>
+    <string name="complete1">完成</string>
+    <string name="preview">预览</string>
+    <string name="original">原图</string>
+    <string name="folder_recent">最近创建</string>
+    <string name="format_send_count">发送(%1$d/%2$d)</string>
+    <string name="format_send_count1">完成(%1$d/%2$d)</string>
+    <string name="format_preview">预览(%1$d)</string>
+    <string name="format_warn_max_send">你最多只能选择%1$d张图片</string>
+    <string name="format_file_count">%1$d张</string>
+
+    <string name="cant_find_pictures">找不到图片</string>
+</resources>
